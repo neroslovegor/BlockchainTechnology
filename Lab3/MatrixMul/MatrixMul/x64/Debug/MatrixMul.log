@@ -1,0 +1,3 @@
+﻿  MatrixMul.cpp
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\MatrixMul\MatrixMul.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MatrixMul.vcxproj -> C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\x64\Debug\MatrixMul.exe
