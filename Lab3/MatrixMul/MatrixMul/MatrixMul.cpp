@@ -61,7 +61,7 @@ int main()
             c[i][j] = 0;
         }
     }
-    clock_t start = clock();
+    double seconds = clock();
     for (int i = 0; i < row1; i++)
     {
         for (int j = 0; j < col2; j++)
@@ -70,8 +70,7 @@ int main()
                 c[i][j] += a[i][k] * b[k][j];
         }
     }
-    clock_t end = clock();
-    double seconds = difftime(end, start);
+    seconds = (clock() - seconds) / 1000;
     printf("Время без ускорением: %f seconds\n", seconds);
 
     // Умножение матриц
@@ -84,7 +83,7 @@ int main()
             c[i][j] = 0;
         }
     }
-    start = clock();
+    seconds = clock();
     for (int i = 0; i < row1; i++)
     {
         for (int k = 0; k < col1; k++)
@@ -93,8 +92,7 @@ int main()
                 c[i][j] += a[i][k] * b[k][j];
         }
     }
-    end = clock();
-    seconds = difftime(end, start);
+    seconds = (clock() - seconds) / 1000;
     printf("Время с ускорением: %f seconds\n", seconds);
 
     // Умножение матриц
@@ -107,21 +105,20 @@ int main()
             c[i][j] = 0;
         }
     }
-    int threadsNum = 3;
-    omp_set_num_threads(threadsNum);
-    start = clock();
+
+    seconds = clock();
+    int i, j, k;
     #pragma omp parallel for  shared(a, b, c) private(i, j, k)
-    for (int i = 0; i < row1; i++)
+    for (i = 0; i < row1; i++)
     {
-        for (int k = 0; k < col1; k++)
+        for (k = 0; k < col1; k++)
         {
-            for (int j = 0; j < col2; j++)
+            for (j = 0; j < col2; j++)
                 c[i][j] += a[i][k] * b[k][j];
         }
     }
-    end = clock();
-    seconds = difftime(end, start);
-    printf("Время с ускорением и с распараллеливанием: %f seconds\n", seconds);
+    seconds = (clock() - seconds) / 1000;
+    printf("Время с ускорением и с распараллеливанием: %f с.\n", seconds);
     // Вывод матрицы произведения
     //cout << "Матрица произведения" << endl;
     //for (int i = 0; i < row1; i++)
