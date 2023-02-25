@@ -1,0 +1,12 @@
+﻿  GaussMethod.cpp
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\GaussMethod.h(67,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\GaussMethod.h(142,16): warning C4101: dtime: неиспользованная локальная переменная
+  MatrixMethod.cpp
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\MatrixMethod.h(23,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  SLAE.cpp
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\MatrixMethod.h(23,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\GaussMethod.h(67,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\GaussMethod.h(142,16): warning C4101: dtime: неиспользованная локальная переменная
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\SLAE\SLAE.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  SLAE.vcxproj -> C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab4\SLAE\x64\Debug\SLAE.exe
