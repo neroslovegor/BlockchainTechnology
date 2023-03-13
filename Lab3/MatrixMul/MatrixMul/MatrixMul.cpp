@@ -11,7 +11,11 @@ int main()
 
     srand(time(NULL));
 
-    int row1 = 2000, row2 = 2000, col1 = 2000, col2 = 2000;
+    int matrix_size;
+    cout << "Введите размер матриц: ";
+    cin >> matrix_size;
+
+    int row1 = matrix_size, row2 = matrix_size, col1 = matrix_size, col2 = matrix_size;
     int** a, ** b, ** c;
 
     // Ввод элементов первой матрицы

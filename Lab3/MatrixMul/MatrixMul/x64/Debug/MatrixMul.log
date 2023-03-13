@@ -1,4 +1,1 @@
-﻿  MatrixMul.cpp
-C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\MatrixMul\MatrixMul.cpp(12,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
-C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\MatrixMul\MatrixMul.cpp(7,5): warning C4101: i: неиспользованная локальная переменная
-  MatrixMul.vcxproj -> C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\x64\Debug\MatrixMul.exe
+﻿  MatrixMul.vcxproj -> C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab3\MatrixMul\x64\Debug\MatrixMul.exe
