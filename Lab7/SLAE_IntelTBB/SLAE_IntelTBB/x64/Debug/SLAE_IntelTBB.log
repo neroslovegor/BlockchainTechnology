@@ -1,0 +1,5 @@
+﻿  MatrixMethod.cpp
+  SLAE_IntelTBB.cpp
+C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab7\SLAE_IntelTBB\SLAE_IntelTBB\GaussMethod.h(75,1): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+  Создание кода...
+  SLAE_IntelTBB.vcxproj -> C:\Users\neroslov\Documents\GitHub\BlockchainTechnology\Lab7\SLAE_IntelTBB\x64\Debug\SLAE_IntelTBB.exe
